@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* max-width: 1440px; */
+}
+
+.Nav-container {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+.Nav-container-h1 {
+  font-family: "Epilogue", sans-serif;
+  font-size: 35px;
+}
+.Nav-container-list {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.Nav-container-btn {
+  padding: 8px 20px;
+  border-radius: 10px;
+  background-color: transparent;
+  border-color: hsl(0, 0%, 41%);
+  border-width: 2px;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  text-decoration: none;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.Nav-container a {
+  text-decoration: none;
+  color: hsl(0, 0%, 41%);
+}
+
+.Sec-main {
+  display: flex;
+  padding: 2rem 8rem;
+  align-items: center;
+  gap: 5rem;
+}
+.Sec-main-1 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 7rem;
+}
+.Sec-main-2 {
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+}
+.Sec-main-text1 {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  font-family: "Epilogue", sans-serif;
+  align-items: baseline;
+}
+.Sec-main-text1 h1 {
+  font-size: 90px;
+}
+.Sec-main-text1 p {
+  color: hsl(0, 0%, 41%);
+  font-size: 17px;
+  font-family: sans-serif;
+  font-weight: bold;
+  word-spacing: 1px;
+}
+.Sec-main-text1 button {
+  padding: 0.7rem 1.5rem;
+  border-radius: 10px;
+  background-color: hsl(0, 0%, 8%);
+  color: hsl(0, 0%, 98%);
+}
+.Sec-main-img img {
+  width: 80%;
+  justify-self: center;
+}/*# sourceMappingURL=style.css.map */
